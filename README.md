@@ -65,3 +65,5 @@ npm test
 
 Sergei Kudinov   
 sergei@adaltas.com
+
+update 2
