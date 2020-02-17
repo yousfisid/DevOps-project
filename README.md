@@ -4,9 +4,10 @@ It runs a http-server with user API.
 
 ## Functionality
 
-1. Run http-server
-2. Create a user
-3. Get a user
+1. Run http-server]
+2. Load the configuration
+3. Create a user
+4. Get a user
 
 ## Installing
 
