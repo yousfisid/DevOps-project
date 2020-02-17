@@ -1,32 +1,62 @@
-# Simple user API http-server
+# User API http-server
 
-It runs a http-server with user API.
+A simple http-server with a user API
+
+##  TODO (homework)
+
+* Clone this repo and using [duplicating](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) create your own repository on GitHub or GitLab
+* **Important!** Make your repository **PRIVATE**
+* Find all the TODO comments and enrich this app
+* If you have questions, ask me by email sergei@adaltas.com (link your private repo, if you have technical questions and invite me to you project)
 
 ## Functionality
 
-1. Run http-server]
-2. Load the configuration
-3. Create a user
-4. Get a user
+* Uses default configuration with a path of the file storage
+* Start http-server
+* Create a user
+* Get a user information
 
-## Installing
+## Installation
 
 ```
-git clone TODO
-cd ece-userapi
+git clone ...
 npm install
 ```
 
 ## Usage
 
-1. To run http-server
-
 ```
 npm start
 ```
 
-2. To run tests
+Go to `http://localhost:3000`
 
+### Using Postman app
+
+1. POST Create user:
+
+```
+http://localhost:3000/user/
+```
+
+Body parameters:
+```
+{
+  username: 'toto',
+  firstname: 'toto-firstname',
+  lastname: 'toto-lastname'
+}
+```
+
+2. GET user by username
+
+```
+http://localhost:3000/user/sergkudinov
+```
+
+## Developer
+
+Run tests:
 ```
 npm test
 ```

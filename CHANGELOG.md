@@ -1,6 +1,6 @@
 # Changelog
 
-# Trunk
+# Version 1.2.0
 
 * Create users REST API
 * Create unit test for users REST API ("create")
