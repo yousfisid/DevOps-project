@@ -1,11 +1,38 @@
 const app = require('../src/index')
+const chai = require('chai')
+const chaiHttp = require('chai-http')
+
+chai.use(chaiHttp)
+
 
 describe('Users REST API', () => {
 
-  describe('POST /user', ()=> {
+  after(()=> {
+    app.close(() => {
+      console.log('Http server closed.');
+    })
+  })
 
-    it('create a new user', (done)=> {
+  describe('POST /user', () => {
 
+    it('create a new user', (done) => {
+      const user = {
+        username: 'sergkudinov',
+        firstname: 'Sergei',
+        lastname: 'Kudinov'
+      }
+      chai.request(app)
+        .post('/user')
+        .send(user)
+        .then((res) => {
+          chai.expect(res).to.have.status(201)
+          chai.expect(res.body.username).to.equal('sergkudinov')
+          chai.expect(res).to.be.json
+          done()
+        })
+        .catch((err) => {
+           throw err
+        })
     })
   })
 

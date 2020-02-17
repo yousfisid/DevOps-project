@@ -4,6 +4,7 @@
 
 * Create users REST API
 * Create unit test for users REST API ("create")
+* Install [chai-http](https://www.chaijs.com/plugins/chai-http/)
 
 # Version 1.1.0
 
