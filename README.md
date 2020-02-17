@@ -70,4 +70,9 @@ update 2
 
 change for rebase
 
+<<<<<<< HEAD
 change for rebase 2
+=======
+
+change for rebase 3
+>>>>>>> rebase 3
