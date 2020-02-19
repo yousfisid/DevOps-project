@@ -6,3 +6,10 @@ script:
 - npm install
 - echo 'Testing'
 - npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: VlXCETEs8+y7dIxMkhL1Eckq6uX15afGdBcjEm6pHx34MVvf5ia3p/N9rLiDi6bBncXJiUriHonk4f5KOhbxASczQkJ5SL44nM+zFbwJv/7dbkHj/dMTMgW8xidNxbmUIIem3EwkNaYjK4m+XzXuOnuvXaOgk93NHxoAD2wQ7tfDEo3sihzmc+3voFHyZIHaxvA29kD74SOtoWBVYxZHyWTNAgrhEq3Ue0S9Iw3G7MffYBi5gSHQiayQn1gO4ciFe8dktymzZyxDx9tpA3CqPF/LUMP7yEXVU2e5QP3VXtujrCL6AfKeRArd6buFaI5pkmFFM/v36B+TXMHMTeEf+nsvVcJ7YmOhdH3rrgQLRN4pprjH8Y8KQZWUfTbbYq4GruRhG0UzQbWTBOApHIJ82fGmxnPzXlDISN2uo68UPkRIVujYN5Xe6XOYZA1vew711HJlLDeA7n4eDNTbHgCAGDtpkVmr2MvO7heNd/iGWGH/e3H76Yib2Aqt5xalEH3xsmciYepeT3nqRZ+2n8/RznJThDy+kqRu1kZm3Z+K8VFxLtbS98p8SiFA+8aP26q0zfCxQveuJEteLbebzNG2uT6csdVSVooBQ9fUGW0DJILuA4ro4TX6mFxi2YWohbbSaJdcBjXwwoirCZiHOljiTEGiqxJPmWwrhCCQWiphNwo=
+  app: ece-devops-si01
+  on:
+    repo: sergkudinov/ece-userapi-grSI01
