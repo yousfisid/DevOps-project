@@ -1,5 +1,14 @@
 # Changelog
 
+# Version 1.4.0
+
+* Add `Dockerfile` with Docker image build instructions
+
+# Version 1.3.0
+
+* Add Travis CI configuration into the `.travis.yml` for CD part using Heroku
+* Add Travis CI configuration into the `.travis.yml` for CI part
+
 # Version 1.2.0
 
 * Create users REST API

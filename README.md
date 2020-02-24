@@ -57,22 +57,18 @@ http://localhost:3000/user/sergkudinov
 ## Developer
 
 Run tests:
+
 ```
 npm test
+```
+
+Build Docker image:
+
+```
+docker build .
 ```
 
 ## Author
 
 Sergei Kudinov   
 sergei@adaltas.com
-
-update 2
-
-change for rebase
-
-<<<<<<< HEAD
-change for rebase 2
-=======
-
-change for rebase 3
->>>>>>> rebase 3

@@ -1,6 +1,6 @@
 {
   "name": "ece-userapi-SI01",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "A simple webserver of user API",
   "main": "src/index.js",
   "scripts": {
