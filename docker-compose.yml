@@ -1,0 +1,13 @@
+version: '2.0'
+services:
+  app-nodejs:
+    build: .
+    ports:
+    - "8000:3000"
+    volumes:
+    - .:/code
+network:
+  deafault:
+    external:
+     name:private
+
