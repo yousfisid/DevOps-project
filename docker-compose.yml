@@ -7,7 +7,6 @@ services:
     volumes:
     - .:/code
 network:
-  deafault:
+  default:
     external:
      name:private
-
