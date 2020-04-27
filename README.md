@@ -3,7 +3,7 @@
   Simple http-server with user API
 </p>
 
-—————————————————————————
+<p>—————————————————————————</p>
 ##<h2> Features</h2>
 * Start http-server
 * Create/Delete an user
@@ -18,13 +18,13 @@
 ### Bonus features
 * Connecting to mongodb database
 
-—————————————————————————
+<p>—————————————————————————</p>
 ##<h2> To Install the project</h2>
 
 git clone « url of the GitHub project »
 npm install
 
-—————————————————————————
+<p>—————————————————————————</p>
 ##<h2> Usage</h2>
 
 npm start
@@ -67,7 +67,7 @@ Params parameters:
   username: 'sergkudinov'
 }
 
-—————————————————————————
+<p>—————————————————————————</p>
 ##<h2> Unit Tests</h2>
 //There is a problem in this part,
 //The routes works correctly with POSTMAN app but do not work with the command npm test
@@ -76,7 +76,7 @@ Go to the root of the project then run:
 
 npm test
 
-—————————————————————————
+<p>—————————————————————————</p>
 ##<h2> Deployment</h2>
 
 ### Heroku
@@ -132,7 +132,7 @@ Deploy an app using Manifest yaml file: deployment.yml (Change deployment.yml if
 
 Run with kubectl apply [OPTIONS] deployment.yml
 
-—————————————————————————
+<p>—————————————————————————</p>
 ##<h2> Verification</h2>
 
 * To verify if docker is installed on your VM:
@@ -140,7 +140,7 @@ Run with kubectl apply [OPTIONS] deployment.yml
 vagrant ssh docker_server
 docker --version
 
-—————————————————————————
+<p>—————————————————————————</p>
 ##<h2> Authors</h2>
 -Joris Dufresne  
 -Sid Ahmed Yousfi
